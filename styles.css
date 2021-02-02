@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+body {
+    height: 100px;
+    background-color: #092147;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f9fd;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    font-weight: bolder;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #f1f9fd;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #f1f9fd;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp #temp-unit {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#temp #temp-value {
+    font-size: 2rem;
+    color: white;
+}
+
+#climate {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+#location {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+#temp-icon {
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #1a488e;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+}
+
+#search-button {
+    color: #1a488e;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #1a488e;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+    cursor: pointer;
+    color: #092147;
+    font-weight: bold;
+}
+
+#search-button:hover {
+    color: white;
+    background: #b80e65;
+    border-color: #b80e65;
+    transition: all 0.4 ease 0s;
+}
+
+#search-input {
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #b80e65;
+    color: white;
+    outline: none;
+    background: none;
+}
+
+input {
+    border: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(1.2%, 5.9%, 7.8%);
+    color: #f1f9fd;
+    text-align: center;
+}

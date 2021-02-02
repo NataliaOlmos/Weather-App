@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <a class="navbar" href="#"><img src="/img/cohete-logo-cloud-blue-las-tic-del-vector-136502151.png"
+                width="70px">Weather</a>
+        <div class="header-links">
+            <a class="navbar" href="#about">About</a>
+        </div>
+    </div>
+
+    <h1>Consulta el clima de tu ciudad en tiempo real</h1>
+    <p>Activa la ubicación para conocer el clima de tu ciudad</p>
+    <p>Utiliza el buscador para conocer el estado del tiempo de cualquier ciudad en el mundo</p>
+
+    <form id="search-form">
+        <input type="search" placeholder="Buscar ciudad" id="search-input" required autocomplete="off" />
+        <br>
+        <br>
+        <button id="search-button">Search</button>
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p>-----</p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="./icons/sun.svg" alt="sun" />
+            <p><span id="temp-value">-----</span><span id="temp-unit">°</span> </p>
+        </div>
+
+        <div id="climate"></div>
+    </main>
+
+    <footer id="about">
+        Natalia Olmos / Creada con fines educativos
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
